@@ -119,6 +119,8 @@ body {
   justify-content: center;
   align-items: center;
   gap: 4px;
+  position: relative;
+  transition: all 0.5s;
 }
 
 .burger__line {
@@ -126,6 +128,20 @@ body {
   background-color: #fff;
   height: 3px;
   width: 21px;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.burger.change .burger__line:first-child {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.burger.change .burger__line:nth-child(2) {
+  opacity: 0;
+}
+
+.burger.change .burger__line:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
 }
 
 .sidebar {
