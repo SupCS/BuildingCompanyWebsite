@@ -1,18 +1,23 @@
 var modal = document.getElementById("myModal");
-var btn = document.getElementById("request__btn");
+var btn1 = document.getElementById("request__btn1");
+var btn2 = document.getElementById("request__btn2");
 var span = document.getElementById("closeModal");
 
-// Открывает модальное окно при нажатии на кнопку
-btn.onclick = function() {
+// Відкрити вікно
+btn1.onclick = function() {
   modal.style.display = "block";
 }
 
-// Закрывает модальное окно при нажатии на "x"
+btn2.onclick = function() {
+  modal.style.display = "block";
+}
+
+// Закрити вікно на "x"
 span.onclick = function() {
   modal.style.display = "none";
 }
 
-// Закрывает модальное окно при нажатии вне его
+// Закрити вікно, якщо клік поза ним
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
