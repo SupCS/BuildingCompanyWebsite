@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="./img/logo.svg" />
+    <script
+      src="https://kit.fontawesome.com/cf71a0b362.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Building Company HomePage</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <div class="header__title">
+          <img class="logo" src="./img/logo.svg" alt="Company logo" />
+          <button class="burger">
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+          </button>
+          <div class="sidebar">
+            <ul class="sidebar__menu">
+              <a href="#header">
+                <li><i class="fas fa-home"></i>Головна</li>
+              </a>
+              <a href="#about">
+                <li><i class="fas fa-info-circle"></i>Про нас</li>
+              </a>
+              <a href="#services">
+                <li><i class="fas fa-star"></i>Послуги</li>
+              </a>
+              <a href="#contacts">
+                <li><i class="fas fa-phone"></i>Контакти</li>
+              </a>
+              <div class="sidebar__divider"></div>
+              <li class="sidebar__close">
+                <i class="fa-solid fa-x"></i>Закрити
+              </li>
+            </ul>
+          </div>
+          <button id="scrollToTopBtn"><img src="./img/arrowup.png" /></button>
+        </div>
+        <h1 class="header__h1">Реалізуємо найбільші проєкти в україні</h1>
+        <h4 class="header__h4">стадіони, газопроводи, мости, дамби</h4>
+      </div>
+    </header>
+    <section class="about" id="about">
+      <div class="info">
+        <div class="container">
+          <div class="about__grid">
+            <div class="about__grid-item">
+              <h4 class="about__h4">15</h4>
+              <h5 class="about__h5">років</h5>
+              <p class="about__p">на ринку</p>
+            </div>
+            <div class="about__grid-item">
+              <h4 class="about__h4">300</h4>
+              <h5 class="about__h5">проєктів</h5>
+              <p class="about__p">виконано</p>
+            </div>
+            <div class="about__grid-item">
+              <h4 class="about__h4">2000</h4>
+              <h5 class="about__h5">робітників</h5>
+              <p class="about__p">у компанії</p>
+            </div>
+            <div class="about__grid-item">
+              <h4 class="about__h4">35</h4>
+              <h5 class="about__h5">компаній</h5>
+              <p class="about__p">постійних клієнтів</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h2 class="text-h2 project-h2">наші найбільші проєкти</h2>
+        <div class="about__flex">
+          <div class="about__flex-item">
+            <img src="./img/nsk.jpg" alt="photo of work" />
+            <div class="rectangle"></div>
+            <h3 class="text-h3 project-h3">НСК “Олімпійський”</h3>
+            <p class="text-p project-p">
+              Універсальна спортивна споруда у Києві, головна арена України,
+              місце проведення домашніх матчів футбольних клубів та національної
+              збірної України з футболу. Вміщує 70 050 глядачів, що робить його
+              17-м за кількістю місць стадіоном Європи
+            </p>
+          </div>
+          <div class="about__flex-item">
+            <img src="./img/nsk.jpg" alt="photo of work" />
+            <div class="rectangle"></div>
+            <h3 class="text-h3 project-h3">НСК “Олімпійський”</h3>
+            <p class="text-p project-p">
+              Універсальна спортивна споруда у Києві, головна арена України,
+              місце проведення домашніх матчів футбольних клубів та національної
+              збірної України з футболу. Вміщує 70 050 глядачів, що робить його
+              17-м за кількістю місць стадіоном Європи
+            </p>
+          </div>
+          <div class="about__flex-item">
+            <img src="./img/nsk.jpg" alt="photo of work" />
+            <div class="rectangle"></div>
+            <h3 class="text-h3 project-h3">НСК “Олімпійський”</h3>
+            <p class="text-p project-p">
+              Універсальна спортивна споруда у Києві, головна арена України,
+              місце проведення домашніх матчів футбольних клубів та національної
+              збірної України з футболу. Вміщує 70 050 глядачів, що робить його
+              17-м за кількістю місць стадіоном Європи
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="request">
+      <div class="container">
+        <div class="request__flex">
+          <div class="request__flex-left">
+            <h4 class="request__h4">Найрозумніші проєкти</h4>
+            <h5 class="request__h5">
+              Реалізуємо найбільш сміливі рішення в україні!
+            </h5>
+          </div>
+          <div class="request__flex-right">
+            <button class="request__btn" id="request__btn">
+              <img
+                src="./img/envelope.svg"
+                alt="envelope"
+                class="request__item"
+              />
+              Ваш запит
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span id="closeModal">&times;</span>
+          <h2>Заповніть форму і ми з вами зв'яжемося!</h2>
+          <form action="/submit_form" method="post">
+            <label for="phone">Номер телефона:</label><br />
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Ваш номер телефону"
+              required
+            /><br />
+            <label for="email">Email:</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Ваш email"
+              required
+            /><br />
+            <div class="submit__container">
+              <input type="submit" value="Відправити" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <div class="container">
+        <h2 class="services__h2">Чим ми займаємося?</h2>
+        <div class="services__grid">
+          <div class="services__grid-item">
+            <img
+              class="services__icon"
+              src="./img/services-office.svg"
+              alt=""
+            />
+            <h4 class="services__h4">Будівництво офісних споруд</h4>
+          </div>
+          <div class="services__grid-item">
+            <img
+              class="services__icon"
+              src="./img/stadium.svg"
+              alt=""
+            />
+            <h4 class="services__h4">Будівництво стадіонів</h4>
+          </div>
+          <div class="services__grid-item">
+            <img
+              class="services__icon"
+              src="./img/tube.svg"
+              alt=""
+            />
+            <h4 class="services__h4">Будівництво трубопроводів</h4>
+          </div>
+          <div class="services__grid-item">
+            <img
+              class="services__icon"
+              src="./img/services-office.svg"
+              alt=""
+            />
+            <h4 class="services__h4">Будівництво офісних споруд</h4>
+          </div>
+          <div class="services__grid-item">
+            <img
+              class="services__icon"
+              src="./img/services-office.svg"
+              alt=""
+            />
+            <h4 class="services__h4">Будівництво офісних споруд</h4>
+          </div>
+          <div class="services__grid-item">
+            <img
+              class="services__icon"
+              src="./img/services-office.svg"
+              alt=""
+            />
+            <h4 class="services__h4">Будівництво офісних споруд</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio">
+      <div class="portfolio__grid">
+        <div class="portfolio__grid-item">
+          <img
+            class="portfolio__img"
+            src="./img/portfolio-item1.jpg"
+            alt="portfolio item"
+          />
+        </div>
+        <div class="portfolio__grid-item">
+          <img
+            class="portfolio__img"
+            src="./img/portfolio-item8.jpeg"
+            alt="portfolio item"
+          />
+        </div>
+        <div class="portfolio__grid-item">
+          <img
+            class="portfolio__img"
+            src="./img/portfolio-item1.jpg"
+            alt="portfolio item"
+          />
+        </div>
+        <div class="portfolio__grid-item">
+          <img
+            class="portfolio__img"
+            src="./img/portfolio-item4.jpg"
+            alt="portfolio item"
+          />
+        </div>
+        <div class="portfolio__grid-item">
+          <img
+            class="portfolio__img"
+            src="./img/portfolio-item5.jpg"
+            alt="portfolio item"
+          />
+        </div>
+        <div class="portfolio__grid-item">
+          <img
+            class="portfolio__img"
+            src="./img/portfolio-item6.jpg"
+            alt="portfolio item"
+          />
+        </div>
+        <div class="portfolio__grid-item">
+          <img
+            class="portfolio__img"
+            src="./img/portfolio-item5.jpg"
+            alt="portfolio item"
+          />
+        </div>
+        <div class="portfolio__grid-item">
+          <img
+            class="portfolio__img"
+            src="./img/portfolio-item8.jpeg"
+            alt="portfolio item"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="questions">
+      <div class="container">
+        <h2 class="questions__h2">Відповіді на запитання</h2>
+        <div class="questions__items">
+          <details class="questions__item">
+            <summary class="questions__h3">
+              Чи займаєтесь ви реставрацією будівель?
+            </summary>
+            <p class="questions__p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </details>
+        </div>
+        <div class="questions__items">
+          <details class="questions__item">
+            <summary class="questions__h3">
+              Чи займаєтесь ви реставрацією будівель?
+            </summary>
+            <p class="questions__p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </details>
+        </div>
+        <div class="questions__items">
+          <details class="questions__item">
+            <summary class="questions__h3">
+              Чи займаєтесь ви реставрацією будівель?
+            </summary>
+            <p class="questions__p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </details>
+        </div>
+        <div class="questions__items">
+          <details class="questions__item">
+            <summary class="questions__h3">
+              Чи займаєтесь ви реставрацією будівель?
+            </summary>
+            <p class="questions__p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </details>
+        </div>
+        <div class="questions__items">
+          <details class="questions__item">
+            <summary class="questions__h3">
+              Чи займаєтесь ви реставрацією будівель?
+            </summary>
+            <p class="questions__p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+    <section class="partners">
+      <div class="container">
+        <h2 class="partners__h2">Наші партнери</h2>
+        <div class="partners__flex">
+          <div class="partners__flex-item">
+            <img src="./img/silpo_logo.png" alt="partner logo" />
+          </div>
+          <div class="partners__flex-item">
+            <img src="./img/silpo_logo.png" alt="partner logo" />
+          </div>
+          <div class="partners__flex-item">
+            <img src="./img/silpo_logo.png" alt="partner logo" />
+          </div>
+          <div class="partners__flex-item">
+            <img src="./img/silpo_logo.png" alt="partner logo" />
+          </div>
+          <div class="partners__flex-item">
+            <img src="./img/silpo_logo.png" alt="partner logo" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="reviews">
+      <div class="container">
+        <h2 class="reviews__h2">Відгуки по роботі з нами</h2>
+        <div class="reviews__grid">
+          <div class="reviews__grid-item">
+            <div class="reviews__card">
+              <div class="reviews__quotes">“</div>
+              <p class="reviews__p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+            <h4 class="reviews__h4">
+              Володимир Зеленський,
+              <span class="reviews__h4-accent">ТОВ “Україна”</span>
+            </h4>
+          </div>
+          <div class="reviews__grid-item">
+            <div class="reviews__card">
+              <div class="reviews__quotes">“</div>
+              <p class="reviews__p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+            <h4 class="reviews__h4">
+              Володимир Зеленський,
+              <span class="reviews__h4-accent">ТОВ “Україна”</span>
+            </h4>
+          </div>
+          <div class="reviews__grid-item">
+            <div class="reviews__card">
+              <div class="reviews__quotes">“</div>
+              <p class="reviews__p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+            <h4 class="reviews__h4">
+              Володимир Зеленський,
+              <span class="reviews__h4-accent">ТОВ “Україна”</span>
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="request">
+      <div class="container">
+        <div class="request__flex">
+          <div class="request__flex-left">
+            <h4 class="request__h4">Бажаєте з нами працювати?</h4>
+            <h5 class="request__h5">Залиште заявку і ми зв'яжемося з вами!</h5>
+          </div>
+          <div class="request__flex-right">
+            <button class="request__btn" id="request__btn">
+              <img
+                src="./img/envelope.svg"
+                alt="envelope"
+                class="request__item"
+              />
+              Ваш запит
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contacts" id="contacts">
+      <div class="container">
+        <h2 class="contacts__h2">Контакти</h2>
+        <div class="contacts__grid">
+          <div class="contacts__grid-item">
+            <img
+              class="contacts__icon"
+              src="./img/adress-icon.svg"
+              alt="adress icon"
+            />
+            <h3 class="contacts__h3 contacts__h3-gray">Адреса:</h3>
+            <h3 class="contacts__h3">Вул. академіка Янгеля<br />будинок 5</h3>
+          </div>
+          <div class="contacts__grid-item">
+            <img
+              class="contacts__icon"
+              src="./img/phone-icon.svg"
+              alt="adress icon"
+            />
+            <h3 class="contacts__h3 contacts__h3-gray">Телефон:</h3>
+            <h3 class="contacts__h3">
+              <a href="tel:+380500445612">+380500445612 (UA)</a><br /><a
+                href="tel:+31686459613"
+                >+31686459613 (EU)</a
+              >
+            </h3>
+          </div>
+          <div class="contacts__grid-item">
+            <img
+              class="contacts__icon"
+              src="./img/time-icon.svg"
+              alt="adress icon"
+            />
+            <h3 class="contacts__h3 contacts__h3-gray">Час роботи:</h3>
+            <h3 class="contacts__h3">ПН-СБ<br />10:00 - 20:00</h3>
+          </div>
+          <div class="contacts__grid-item">
+            <img
+              class="contacts__icon"
+              src="./img/mail-icon.svg"
+              alt="adress icon"
+            />
+            <h3 class="contacts__h3 contacts__h3-gray">E-mail:</h3>
+            <a href="mailto:supezbiz@gmail.com">
+              <h3 class="contacts__h3 contacts__h3-accent">
+                supezbiz@gmail.com
+              </h3>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer__flex">
+          <p class="footer__p footer__copyright">© 2023 Будівельна компанія</p>
+          <p class="footer__p footer__developer">
+            Developed by Dmytro Asparian
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/modal.js"></script>
+    <script src="./js/scrollToTop.js"></script>
+    <script src="./js/sidebar.js"></script>
+  </body>
+</html>
